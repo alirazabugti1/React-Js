@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+    display: flex;
+    background-color: black;
+
+}
+.hi
+{
+    margin-bottom: 30px;
+}
+ul li a
+{
+    color: white;
+}
+ul li{
+    margin-bottom: 20px;
+    padding: 10px;
+}
