@@ -2,14 +2,29 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import Navbar from './components/Navbar';
 import React, { Component } from 'react'
-import News from './components/News';
 export default class App extends Component {
-  c='aliraza'
+//class based component
+state={
+  count:0,
+};
+
+
+Increament = () => {
+  this.setState({
+    count: this.state.count+1
+  });
+}
+
   render() {
     return (
       <div>
      <Navbar/>
-     <News/>
+
+     <div className="center-container">
+    <p>Count: {this.state.count}</p>
+    <button onClick={this.Increament}>Increment</button>
+    </div>
+
       </div>
     )
   }
