@@ -1,13 +1,15 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"; 
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import Navbar from './components/Navbar';
 import React, { Component } from 'react'
+import News from './components/News';
 export default class App extends Component {
   c='aliraza'
   render() {
     return (
       <div>
-        Hello class Based component {this.c}
+     <Navbar/>
+     <News/>
       </div>
     )
   }
