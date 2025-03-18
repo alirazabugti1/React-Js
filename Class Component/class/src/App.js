@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/Navbar';
 import React, { Component } from 'react'
 export default class App extends Component {
-//class based component
 state={
   count:0,
 };
