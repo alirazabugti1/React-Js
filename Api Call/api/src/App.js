@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 function App()
 {
 
-  const URL = "http://127.0.0.1:5000/";
+  const URL = "http://127.0.0.1:5000/"; //Flask Api
   const [data, setData] = useState(""); 
 
   useEffect(() =>
