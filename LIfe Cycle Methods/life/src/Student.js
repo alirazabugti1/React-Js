@@ -16,6 +16,7 @@ class Student extends Component
 
   render()
   {
+
     return <h1>Hello, {this.state.name}!</h1>;
   }
 
