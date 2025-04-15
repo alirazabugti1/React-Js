@@ -1,18 +1,20 @@
 import React, { useRef, useEffect } from 'react';
-
-function App() {
+function App()
+{
   const countRef = useRef(0);
 
-  useEffect(() => {
+  useEffect(() =>
+  {
     console.log('Re Render horha hon abhi dekho!');
   });
 
-  const incrementCount = () => {
+  const incrementCount = () =>
+  {
     countRef.current += 1;
     console.log('Updated count:', countRef.current);
   };
 
-  return (
+  return(
     <div>
       <div>
         <button onClick={incrementCount}>Increment</button>
